@@ -1,0 +1,96 @@
+/* Sierra Button Widget */
+
+.sierra-button {
+		display: inline-block;
+    line-height: 22px;
+		-webkit-border-radius: 10px;
+    border-radius: 10px;
+		border: none;
+    background-color: #2962FF;
+		font-weight: bold;
+    color: #fff;
+		letter-spacing: 1px;
+    text-align: center;
+		text-transform: uppercase;
+    -webkit-transition: all .3s;
+    -o-transition: all .3s;
+    transition: all .3s;
+}
+
+.sierra-button:hover,
+.sierra-button:focus,
+.sierra-button:visited {
+	color: #FFF;
+	box-shadow: 0 8px 20px 0 rgba(41,98,255,0.30);
+}
+
+.elementor-element.sierra-button-arrow .sierra-button {
+    background-color: transparent;
+		color: #2962FF;
+}
+
+.elementor-element.sierra-button-arrow .sierra-button:hover,
+.elementor-element.sierra-button-arrow .sierra-button:focus,
+.elementor-element.sierra-button-arrow .sierra-button:visited {
+	box-shadow: none;
+	color: #2962FF;
+}
+
+.elementor-element.sierra-button-arrow .sierra-button.sierra-size-xs,
+.elementor-element.sierra-button-arrow .sierra-button.sierra-size-sm,
+.elementor-element.sierra-button-arrow .sierra-button.sierra-size-md,
+.elementor-element.sierra-button-arrow .sierra-button.sierra-size-lg,
+.elementor-element.sierra-button-arrow .sierra-button.sierra-size-xl {
+	padding: 0;
+}
+
+.elementor-element.sierra-button-arrow .sierra-button.sierra-size-md .material-icons {
+	font-size: 18px;
+	line-height: 22px;
+}
+
+.sierra-button.sierra-size-xs {
+    font-size: 10px;
+    padding: 5px 10px;
+}
+
+.sierra-button.sierra-size-sm {
+    font-size: 12px;
+    padding: 10px 15px;
+}
+
+.sierra-button.sierra-size-md {
+    font-size: 14px;
+    padding: 19px 50px;
+}
+
+.sierra-button.sierra-size-lg {
+    font-size: 15px;
+    padding: 25px 55px;
+}
+
+.sierra-button.sierra-size-xl {
+    font-size: 16px;
+    padding: 30px 60px;
+}
+
+.sierra-button .elementor-align-icon-right {
+    float: right;
+    margin-left: 5px;
+}
+
+.sierra-button .elementor-align-icon-left {
+    float: left;
+    margin-right: 5px;
+}
+
+.sierra-button span {
+    text-decoration: inherit;
+}
+
+/* WP Sierra Posts */
+
+.elementor-widget-container .masonry-container {
+	margin-left: -15px;
+	margin-right: -15px;
+}
